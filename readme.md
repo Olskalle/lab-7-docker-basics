@@ -28,5 +28,5 @@ sudo docker logs -n 10 nginx-cont
 
 Проверяем:
 
-![Pasted image 20251109185133.png](Pasted%20image%2020251109185133.png)
+![Pasted image 20251109185133.png](attachments/Pasted%20image%2020251109185133.png)
 
