@@ -1,3 +1,5 @@
+# Зольников В.В., ФИТ-2024-НМ. ЛР  7
+## Установка Docker
 Устанавливаем Docker и добавляем пользователя в группу:
 
 ```
@@ -5,7 +7,7 @@ sudo apt install docker.io
 sudo usermod -aG docker $(whoami)
 ```
 
-Далее:
+## Создание веб-сервера
 * Создаем конфиг веб сервера nginx.conf
 * Создаем индексную страницу
 * Готовим Dockerfile
@@ -26,7 +28,7 @@ curl 127.0.0.1:54321
 sudo docker logs -n 10 nginx-cont
 ```
 
-Проверяем:
+## Проверка
 
 ![Pasted image 20251109185133.png](attachments/Pasted%20image%2020251109185133.png)
 
